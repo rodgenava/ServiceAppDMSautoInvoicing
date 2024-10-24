@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3AD0D49D-7364-41B2-858F-604FCC10998A}|ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj|c:\\users\\rnava\\myproject\\dms\\dms - receiving enhancement\\console dmsreceivingdotnet\\serviceappdmsautoinvoicing\\serviceappdmsautoinvoicing\\service\\autoinvoicingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AD0D49D-7364-41B2-858F-604FCC10998A}|ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj|solutionrelative:serviceappdmsautoinvoicing\\service\\autoinvoicingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AD0D49D-7364-41B2-858F-604FCC10998A}|ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj|c:\\users\\rnava\\myproject\\dms\\dms - receiving enhancement\\console dmsreceivingdotnet\\serviceappdmsautoinvoicing\\serviceappdmsautoinvoicing\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AD0D49D-7364-41B2-858F-604FCC10998A}|ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj|solutionrelative:serviceappdmsautoinvoicing\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AD0D49D-7364-41B2-858F-604FCC10998A}|ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj|c:\\users\\rnava\\myproject\\dms\\dms - receiving enhancement\\console dmsreceivingdotnet\\serviceappdmsautoinvoicing\\serviceappdmsautoinvoicing\\service\\dmsqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AD0D49D-7364-41B2-858F-604FCC10998A}|ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj|solutionrelative:serviceappdmsautoinvoicing\\service\\dmsqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AD0D49D-7364-41B2-858F-604FCC10998A}|ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj|c:\\users\\rnava\\myproject\\dms\\dms - receiving enhancement\\console dmsreceivingdotnet\\serviceappdmsautoinvoicing\\serviceappdmsautoinvoicing\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3AD0D49D-7364-41B2-858F-604FCC10998A}|ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj|solutionrelative:serviceappdmsautoinvoicing\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AD0D49D-7364-41B2-858F-604FCC10998A}|ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj|c:\\users\\rnava\\myproject\\dms\\dms - receiving enhancement\\console dmsreceivingdotnet\\serviceappdmsautoinvoicing\\serviceappdmsautoinvoicing\\service\\audilogsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AD0D49D-7364-41B2-858F-604FCC10998A}|ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj|solutionrelative:serviceappdmsautoinvoicing\\service\\audilogsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AD0D49D-7364-41B2-858F-604FCC10998A}|ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj|c:\\users\\rnava\\myproject\\dms\\dms - receiving enhancement\\console dmsreceivingdotnet\\serviceappdmsautoinvoicing\\serviceappdmsautoinvoicing\\interface\\idmsqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AD0D49D-7364-41B2-858F-604FCC10998A}|ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj|solutionrelative:serviceappdmsautoinvoicing\\interface\\idmsqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AD0D49D-7364-41B2-858F-604FCC10998A}|ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj|c:\\users\\rnava\\myproject\\dms\\dms - receiving enhancement\\console dmsreceivingdotnet\\serviceappdmsautoinvoicing\\serviceappdmsautoinvoicing\\interface\\iaudilogsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AD0D49D-7364-41B2-858F-604FCC10998A}|ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj|solutionrelative:serviceappdmsautoinvoicing\\interface\\iaudilogsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AD0D49D-7364-41B2-858F-604FCC10998A}|ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj|c:\\users\\rnava\\myproject\\dms\\dms - receiving enhancement\\console dmsreceivingdotnet\\serviceappdmsautoinvoicing\\serviceappdmsautoinvoicing\\interface\\iautoinvoicingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AD0D49D-7364-41B2-858F-604FCC10998A}|ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj|solutionrelative:serviceappdmsautoinvoicing\\interface\\iautoinvoicingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AD0D49D-7364-41B2-858F-604FCC10998A}|ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj|c:\\users\\rnava\\myproject\\dms\\dms - receiving enhancement\\console dmsreceivingdotnet\\serviceappdmsautoinvoicing\\serviceappdmsautoinvoicing\\entities\\invoicing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AD0D49D-7364-41B2-858F-604FCC10998A}|ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj|solutionrelative:serviceappdmsautoinvoicing\\entities\\invoicing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AD0D49D-7364-41B2-858F-604FCC10998A}|ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj|c:\\users\\rnava\\myproject\\dms\\dms - receiving enhancement\\console dmsreceivingdotnet\\serviceappdmsautoinvoicing\\serviceappdmsautoinvoicing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AD0D49D-7364-41B2-858F-604FCC10998A}|ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj|solutionrelative:serviceappdmsautoinvoicing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AudilogsService.cs",
+              "DocumentMoniker": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\Service\\AudilogsService.cs",
+              "RelativeDocumentMoniker": "ServiceAppDMSautoInvoicing\\Service\\AudilogsService.cs",
+              "ToolTip": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\Service\\AudilogsService.cs",
+              "RelativeToolTip": "ServiceAppDMSautoInvoicing\\Service\\AudilogsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T02:28:46.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDMSQueryService.cs",
+              "DocumentMoniker": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\Interface\\IDMSQueryService.cs",
+              "RelativeDocumentMoniker": "ServiceAppDMSautoInvoicing\\Interface\\IDMSQueryService.cs",
+              "ToolTip": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\Interface\\IDMSQueryService.cs",
+              "RelativeToolTip": "ServiceAppDMSautoInvoicing\\Interface\\IDMSQueryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:44:33.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DMSQueryService.cs",
+              "DocumentMoniker": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\Service\\DMSQueryService.cs",
+              "RelativeDocumentMoniker": "ServiceAppDMSautoInvoicing\\Service\\DMSQueryService.cs",
+              "ToolTip": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\Service\\DMSQueryService.cs",
+              "RelativeToolTip": "ServiceAppDMSautoInvoicing\\Service\\DMSQueryService.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAqwH8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:43:28.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutoInvoicingService.cs",
+              "DocumentMoniker": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\Service\\AutoInvoicingService.cs",
+              "RelativeDocumentMoniker": "ServiceAppDMSautoInvoicing\\Service\\AutoInvoicingService.cs",
+              "ToolTip": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\Service\\AutoInvoicingService.cs",
+              "RelativeToolTip": "ServiceAppDMSautoInvoicing\\Service\\AutoInvoicingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T07:31:49.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAutoInvoicingService.cs",
+              "DocumentMoniker": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\Interface\\IAutoInvoicingService.cs",
+              "RelativeDocumentMoniker": "ServiceAppDMSautoInvoicing\\Interface\\IAutoInvoicingService.cs",
+              "ToolTip": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\Interface\\IAutoInvoicingService.cs",
+              "RelativeToolTip": "ServiceAppDMSautoInvoicing\\Interface\\IAutoInvoicingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:17:36.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\appsettings.json",
+              "RelativeDocumentMoniker": "ServiceAppDMSautoInvoicing\\appsettings.json",
+              "ToolTip": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\appsettings.json",
+              "RelativeToolTip": "ServiceAppDMSautoInvoicing\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-17T07:34:54.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\Worker.cs",
+              "RelativeDocumentMoniker": "ServiceAppDMSautoInvoicing\\Worker.cs",
+              "ToolTip": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\Worker.cs",
+              "RelativeToolTip": "ServiceAppDMSautoInvoicing\\Worker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T07:25:38.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Invoicing.cs",
+              "DocumentMoniker": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\Entities\\Invoicing.cs",
+              "RelativeDocumentMoniker": "ServiceAppDMSautoInvoicing\\Entities\\Invoicing.cs",
+              "ToolTip": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\Entities\\Invoicing.cs",
+              "RelativeToolTip": "ServiceAppDMSautoInvoicing\\Entities\\Invoicing.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwB0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:09:21.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAudilogsService.cs",
+              "DocumentMoniker": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\Interface\\IAudilogsService.cs",
+              "RelativeDocumentMoniker": "ServiceAppDMSautoInvoicing\\Interface\\IAudilogsService.cs",
+              "ToolTip": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\Interface\\IAudilogsService.cs",
+              "RelativeToolTip": "ServiceAppDMSautoInvoicing\\Interface\\IAudilogsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T23:23:30.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\Program.cs",
+              "RelativeDocumentMoniker": "ServiceAppDMSautoInvoicing\\Program.cs",
+              "ToolTip": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\Program.cs",
+              "RelativeToolTip": "ServiceAppDMSautoInvoicing\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T09:30:05.886Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
