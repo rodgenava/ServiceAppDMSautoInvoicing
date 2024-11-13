@@ -10,5 +10,6 @@ namespace ServiceAppDMSautoInvoicing
     {
         Task<Invoicing> checkDBforInvoicing();
         Task<bool> UpdateDBinvoicing(string RCRNumber = "");
+        Task<string> InsertDBinvoicing(string RCRNumber = "");
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj": {}
+    "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing_GitHub\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj": {
+    "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing_GitHub\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj",
+        "projectUniqueName": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing_GitHub\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj",
         "projectName": "ServiceAppDMSautoInvoicing",
-        "projectPath": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj",
+        "projectPath": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing_GitHub\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing.csproj",
         "packagesPath": "C:\\Users\\rnava\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\obj\\",
+        "outputPath": "C:\\Users\\rnava\\MyProject\\DMS\\DMS - Receiving Enhancement\\Console DMSreceivingdotnet\\ServiceAppDMSautoInvoicing_GitHub\\ServiceAppDMSautoInvoicing\\ServiceAppDMSautoInvoicing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rnava\\AppData\\Roaming\\NuGet\\NuGet.Config",

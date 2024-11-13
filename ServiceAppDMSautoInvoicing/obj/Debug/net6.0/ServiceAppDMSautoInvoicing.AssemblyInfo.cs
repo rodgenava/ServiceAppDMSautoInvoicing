@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ServiceAppDMSautoInvoicing")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c88366ba782f944cc2d9fef221b3c325fa1efb2")]
 [assembly: System.Reflection.AssemblyProductAttribute("ServiceAppDMSautoInvoicing")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ServiceAppDMSautoInvoicing")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

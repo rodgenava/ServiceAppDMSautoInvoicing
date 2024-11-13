@@ -11,4 +11,8 @@
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="AuditLogs\" />
+  </ItemGroup>
 </Project>

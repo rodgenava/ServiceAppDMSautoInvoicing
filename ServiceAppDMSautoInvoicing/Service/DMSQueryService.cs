@@ -24,23 +24,23 @@ namespace ServiceAppDMSautoInvoicing
                 Invoicing invoicing = new Invoicing();
                 string connectionString = _configuration.GetSection("ConnectionStrings:DMS").Value;
 
-                string selectquery = "select * " +
-                                          //",PONumber" +
-                                          //",VendorCode" +
-                                          //",VendorName" +
-                                          //",RCRDate" +
-                                          //",RCRNumber" +
-                                          //",RCRAmount" +
-                                          //",AdjustedRCRAmount" +
-                                          //",SIAmount" +
-                                          //",PORADate" +
-                                          //",PORAAmount" +
-                                          //",FinalAmount" +
-                                          //",RCRStatus" +
-                                          //",DateProcessed" +
-                                          //",SINumber " +
-                                      //"from QF_RCR where LOWER(RCRStatus) = 'on process' and isnull(IsInvoiced, 0) = 0";
-                                      "from QF_RCR where LOWER(RCRStatus) = 'processed' and isnull(IsInvoiced, 0) = 0";
+                string selectquery = "select top 1 * " +
+                                      //",PONumber" +
+                                      //",VendorCode" +
+                                      //",VendorName" +
+                                      //",RCRDate" +
+                                      //",RCRNumber" +
+                                      //",RCRAmount" +
+                                      //",AdjustedRCRAmount" +
+                                      //",SIAmount" +
+                                      //",PORADate" +
+                                      //",PORAAmount" +
+                                      //",FinalAmount" +
+                                      //",RCRStatus" +
+                                      //",DateProcessed" +
+                                      //",SINumber " +
+                                      //"from QF_RCRform where LOWER(RCRStatus) = 'on process' and isnull(IsInvoiced, 0) = 0";
+                                      "from QF_RCRform where LOWER(RCRStatus) = 'processed' and isnull(IsInvoiced, 0) = 0";
 
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
@@ -73,7 +73,7 @@ namespace ServiceAppDMSautoInvoicing
                                 invoicing.SIDate = DateTime.Parse(sreader["SIDate"].ToString());
                                 invoicing.VatCode = sreader["VatCode"].ToString();
                                 invoicing.PaymentTerms = sreader["PaymentTerms"].ToString();
-                                invoicing.AutoNumber = sreader["AutoNumber"].ToString();
+                                //invoicing.AutoNumber = sreader["AutoNumber"].ToString();
                             }
                         }
                     }
@@ -94,7 +94,7 @@ namespace ServiceAppDMSautoInvoicing
             {
                 string connectionString = _configuration.GetSection("ConnectionStrings:DMS").Value;
 
-                string queryUpdate = "UPDATE QF_RCR SET [IsInvoiced] = @IsInvoiced WHERE RCRNumber = @RCRNumber";
+                string queryUpdate = "UPDATE QF_RCRform SET [IsInvoiced] = @IsInvoiced WHERE RCRNumber = @RCRNumber";
 
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
@@ -124,6 +124,45 @@ namespace ServiceAppDMSautoInvoicing
             {
                 _audilogsService.writeLogs(ex.ToString());
                 return false;
+            }
+        }
+
+        public async Task<string> InsertDBinvoicing(string RCRNumber = "")
+        {
+            try
+            {
+                string connectionString = _configuration.GetSection("ConnectionStrings:DMS").Value;
+                string queryUpdate = "INSERT INTO DMS_InvoiceNum (RCRNumber) OUTPUT INSERTED.ID VALUES (@RCRNumber)";
+
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+
+                    // Create a SqlCommand
+                    using (SqlCommand cmd = new SqlCommand(queryUpdate, connection))
+                    {
+                        cmd.Parameters.AddWithValue("@RCRNumber", RCRNumber);
+
+                        // Execute the command and retrieve the ID of the inserted row
+                        var insertedId = cmd.ExecuteScalar();
+
+                        if (insertedId != null)
+                        {
+                            // Insert is successful, return the ID
+                            return insertedId.ToString();
+                        }
+                        else
+                        {
+                            // Insert failed
+                            return "Insert failed";
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                _audilogsService.writeLogs(ex.ToString());
+                return "Error occurred";
             }
         }
     }

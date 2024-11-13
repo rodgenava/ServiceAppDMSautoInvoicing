@@ -24,6 +24,7 @@ namespace ServiceAppDMSautoInvoicing
             Invoicing invoicing = await _dmsQueryService.checkDBforInvoicing();
             if (!string.IsNullOrEmpty(invoicing.RCRNumber))
             {
+                invoicing.AutoNumber = await _dmsQueryService.InsertDBinvoicing(invoicing.RCRNumber);
                 bool isdoneupdate = await _dmsQueryService.UpdateDBinvoicing(invoicing.RCRNumber);
                 if (isdoneupdate)
                 {
@@ -56,33 +57,54 @@ namespace ServiceAppDMSautoInvoicing
 
                 using (var sw = new StreamWriter(fullpath, true))
                 {
-                    invoice = String.Format("{0}|STANDARD|{1}|{2}|KHO|{3}|{4}|{5}|{6}|{7}|PO|{8}|{9}|ITEM|{10}|{11}|{12}|{13}|{14}|{15}|{16}|{17}|{18}|{19}|||||||||{20}||||PHP|{21}||{22}|",
+                    string[] invoiceArray = new string[]
+                    {
+                        autonumber(invoicing.AutoNumber),                           // 0            HDR_INVOICE_NUM
+                        "STANDARD",                                                 // 1            HDR_INVOICE_TYPE_LOOKUP_CODE
+                        invoicing.DateProcessed.Value.ToString("dd-MMM-yyyy"),      // 2            HDR_INVOICE_DATE
+                        invoicing.VendorCode,                                       // 3            HDR_VENDOR_NUM
+                        "KHO",                                                      // 4            HDR_VENDOR_SITE_CODE
+                        invoicing.FinalAmount,                                      // 5            HDR_INVOICE_AMOUNT
+                        invoicing.RCRNumber,                                        // 6            HDR_DESCRIPTION
+                        invoicing.RCRDate.Value.ToString("dd-MMM-yyyy"),            // 7            HDR_GOODS_RECEIVED_DATE
+                        invoicing.SIDate.Value.ToString("dd-MMM-yyyy"),             // 8            HDR_INVOICE_RECEIVED_DATE
+                        invoicing.DateProcessed.Value.ToString("dd-MMM-yyyy"),      // 9            HDR_GL_DATE
+                        "PO",                                                       // 10           HDR_SOURCE 
+                        "1",                                                        // 11           DTL_LINE_NUMBER
+                        invoicing.FinalAmount,                                      // 12           DTL_AMOUNT
+                        "200",                                                      // 13           DTL_LINE_TYPE_LOOKUP_CODE
+                        invoicing.Location,                                         // 14           DTL_DR_COMPANY
+                        "",                                                         // 15           DTL_DR_BRANCH
+                        "0",                                                        // 16           DTL_DR_BUSINESS_LINE
+                        "0",                                                        // 17           DTL_DR_DEPARTMENT
+                        "200335011",                                                // 18           DTL_DR_SECTION
+                        "200335011",                                                // 19           DTL_DR_MAJOR_ACCOUNT
+                        "",                                                         // 20           DTL_DR_MINOR_ACCOUNT
+                        invoicing.FinalAmount,                                      // 21           DTL_RCR_AMOUNT
+                        invoicing.RCRNumber,                                        // 22           DTL_REFERENCE_NUMBER
+                        invoicing.RCRAmount,                                        // 23           DTL_RCR_AMOUNT
+                        "",                                                         // 24           DTL_CR_COMPANY
+                        "",                                                         // 25           DTL_CR_BRANCH
+                        "",                                                         // 26           DTL_CR_BUSINESS_LINE
+                        "",                                                         // 27           DTL_CR_DEPARTMENT
+                        "",                                                         // 28           DTL_CR_SECTION
+                        "",                                                         // 29           DTL_CR_MAJOR_ACCOUNT
+                        "",                                                         // 30           DTL_CR_MINOR_ACCOUNT
+                        "",                                                         // 31           DTL_CR_AMOUNT
+                        invoicing.VatCode,                                          // 32           DTL_VAT_CODE
+                        "",                                                         // 33           DTL_ITEM_CODE
+                        "",                                                         // 34           DTL_QUANTITY
+                        "",                                                         // 35           DTL_AMOUNT
+                        "PHP",                                                      // 36           HDR_CURR_CODE
+                        invoicing.PaymentTerms,                                     // 37           DUE_DATE/Payment Terms
+                        "",                                                         // 38           MISC_SUP_ACTUAL_NAME
+                        fileName                                                    // 39           FILENAME
+                    };
 
-                        autonumber(invoicing.AutoNumber),   //0
-                        invoicing.DateProcessed,            //1
-                        invoicing.VendorCode,               //2
-                        invoicing.FinalAmount,              //3
-                        invoicing.RCRNumber,                //4
-                        invoicing.RCRDate,                  //5
-                        invoicing.SIDate,                   //6
-                        invoicing.DateProcessed,            //7
-                        "",                                 //8
-                        invoicing.FinalAmount,              //9
-                        "200",                              //10
-                        invoicing.Location,                 //11
-                        "",                                 //12
-                        "0",                                //13
-                        "0",                                //14
-                        "200335011",                        //15
-                        "200335011",                        //16
-                        invoicing.FinalAmount,              //17
-                        invoicing.RCRNumber,                //18
-                        invoicing.RCRAmount,                //19
-                        invoicing.VatCode,                  //20
-                        invoicing.PaymentTerms,             //21
-                        fileName);                          //22
+                    // Join array elements into a single string with "|" as delimiter
+                    invoice = string.Join("|", invoiceArray);
 
-                    sw.WriteLine(invoice);
+                    sw.WriteLine(invoice + "|");
                 }
                 return (true,fullpath);
             }
